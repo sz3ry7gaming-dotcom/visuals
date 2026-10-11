@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "visuals",
+	"version": "${version}",
+	"name": "Visuals",
+	"description": "Wizualne dodatki klienta: chinese hat, trail, kill effect i kółka lądowania. Menu pod klawiszem O.",
+	"authors": [
+		"sz3ry"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.visuals.VisualsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
